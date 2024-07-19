@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Tutorial ngepel lantai gedung</h2>
+
+<p id="demo"></p>
+
+<script>
+const ngepelLantaiGedung = [
+    "1.Mengambil kain pel",
+    "2.Mencuci kain pel",
+    "3.Memeras kain pel",
+    "4.Mengepel di seluruh bagian lantai",
+    "5.Mengulang tahap 2 sampai 4 di setiap lantai sampai ke lantai 5"];
+
+let text = "";
+for (let i = 0; i< ngepelLantaiGedung.length; i++) {
+  text += ngepelLantaiGedung[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+
+</body>
+</html>
